@@ -24,15 +24,17 @@ def is_movie_streaming(movie_title, movie_year):
     return "None","Not Found"
 
 dir = "icheckmovies_070621/"
-#movie_list = "stand-up+comedy.csv"
+
 #movie_list = "imdbs+top+250.csv"
 #movie_list = "jennifer+eisss+500+essential+cult+movies.csv"
-movie_list = "time+out+london+50+essential+sci-fi+films.csv"
+#movie_list = "time+out+london+50+essential+sci-fi+films.csv"
 
 #standup
+#TODO: merge these all into a single dict
 #movie_list = "flavorwires+the+50+funniest+stand-up+specials+of+all+time.csv"
 #movie_list = "stand-up+comedy+101+essential+specials+for+the+comedy+nerd.csv"
 #movie_list = "splitsider+the+20+greatest+standup+specials+of+all+time.csv"
+movie_list = "stand-up+comedy.csv"
 
 title_col = 2
 year_col = 3
